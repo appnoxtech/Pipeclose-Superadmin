@@ -793,10 +793,18 @@ svg { display: block; }
           <table>
             <thead><tr><th>User</th><th>Event</th><th>Module</th><th>Time</th><th>Status</th></tr></thead>
             <tbody>
-              <tr><td><div class="user-cell"><div class="avatar av-blue">AR</div><div><div class="user-cell-name">Anjali Rao</div></div></div></td><td>Logged in</td><td>Deals pipeline</td><td class="font-mono" style="font-size:12px">09:42 AM</td><td><span class="badge badge-success">Success</span></td></tr>
-              <tr><td><div class="user-cell"><div class="avatar av-green">BK</div><div><div class="user-cell-name">Ben Kim</div></div></div></td><td>Exported contacts</td><td>Contacts</td><td class="font-mono" style="font-size:12px">08:15 AM</td><td><span class="badge badge-warning">Data export</span></td></tr>
-              <tr><td><div class="user-cell"><div class="avatar av-purple">CM</div><div><div class="user-cell-name">Carlos M.</div></div></div></td><td>Permission changed</td><td>Settings</td><td class="font-mono" style="font-size:12px">Yesterday</td><td><span class="badge badge-info">Config change</span></td></tr>
-              <tr><td><div class="user-cell"><div class="avatar av-red">FW</div><div><div class="user-cell-name">Frank W.</div></div></div></td><td>Login from new device</td><td>Auth</td><td class="font-mono" style="font-size:12px">2 days ago</td><td><span class="badge badge-danger">Alert</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-blue">AR</div><div><div class="user-cell-name">Anjali Rao</div><div class="user-cell-email">anjali@acme.io</div></div></div></td><td>Logged in</td><td>Deals pipeline</td><td class="font-mono" style="font-size:12px">09:42 AM</td><td><span class="badge badge-success">Success</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-green">BK</div><div><div class="user-cell-name">Ben Kim</div><div class="user-cell-email">ben@acme.io</div></div></div></td><td>Exported contacts</td><td>Contacts</td><td class="font-mono" style="font-size:12px">08:15 AM</td><td><span class="badge badge-warning">Data export</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-purple">CM</div><div><div class="user-cell-name">Carlos M.</div><div class="user-cell-email">carlos@acme.io</div></div></div></td><td>Permission changed</td><td>Settings</td><td class="font-mono" style="font-size:12px">07:58 AM</td><td><span class="badge badge-info">Config change</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-red">FW</div><div><div class="user-cell-name">Frank W.</div><div class="user-cell-email">frank@acme.io</div></div></div></td><td>Login from new device</td><td>Auth</td><td class="font-mono" style="font-size:12px">07:30 AM</td><td><span class="badge badge-danger">Alert</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-teal">SP</div><div><div class="user-cell-name">Sofia Patel</div><div class="user-cell-email">sofia@acme.io</div></div></div></td><td>Deal stage updated</td><td>Deals pipeline</td><td class="font-mono" style="font-size:12px">06:55 AM</td><td><span class="badge badge-success">Success</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-amber">JL</div><div><div class="user-cell-name">James Lee</div><div class="user-cell-email">james@acme.io</div></div></div></td><td>Report generated</td><td>Analytics</td><td class="font-mono" style="font-size:12px">Yesterday</td><td><span class="badge badge-accent">Report</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-blue">MT</div><div><div class="user-cell-name">Maya Turner</div><div class="user-cell-email">maya@acme.io</div></div></div></td><td>New contact added</td><td>Contacts</td><td class="font-mono" style="font-size:12px">Yesterday</td><td><span class="badge badge-success">Success</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-purple">RD</div><div><div class="user-cell-name">Ryan Davis</div><div class="user-cell-email">ryan@acme.io</div></div></div></td><td>API key generated</td><td>API & Integrations</td><td class="font-mono" style="font-size:12px">Yesterday</td><td><span class="badge badge-warning">Key issued</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-green">NS</div><div><div class="user-cell-name">Nina Sharma</div><div class="user-cell-email">nina@acme.io</div></div></div></td><td>Email campaign sent</td><td>Email inbox</td><td class="font-mono" style="font-size:12px">2 days ago</td><td><span class="badge badge-success">Success</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-red">OB</div><div><div class="user-cell-name">Omar Blake</div><div class="user-cell-email">omar@acme.io</div></div></div></td><td>Failed login attempt</td><td>Auth</td><td class="font-mono" style="font-size:12px">2 days ago</td><td><span class="badge badge-danger">Alert</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-teal">EK</div><div><div class="user-cell-name">Eva Klein</div><div class="user-cell-email">eva@acme.io</div></div></div></td><td>Team member invited</td><td>Settings</td><td class="font-mono" style="font-size:12px">3 days ago</td><td><span class="badge badge-info">Invitation</span></td></tr>
+              <tr><td><div class="user-cell"><div class="avatar av-amber">PG</div><div><div class="user-cell-name">Paul Garcia</div><div class="user-cell-email">paul@acme.io</div></div></div></td><td>Billing plan upgraded</td><td>Billing & plans</td><td class="font-mono" style="font-size:12px">4 days ago</td><td><span class="badge badge-accent">Upgrade</span></td></tr>
             </tbody>
           </table>
         </div>
@@ -1173,37 +1181,129 @@ svg { display: block; }
 
     <!-- ═══ ANALYTICS ═════════════════════════ -->
     <div id="page-analytics" class="page">
-      <div class="section-head"><h3>Platform analytics</h3><p>See how your team uses Pipeclose — sessions, logins, feature adoption, and seat utilisation.</p></div>
-      <div class="stat-grid">
-        <div class="stat-card"><div class="stat-label">Daily active users</div><div class="stat-value">22</div><div class="stat-delta delta-up"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M6 2l4 5H2z"/></svg>+14% vs last month</div></div>
-        <div class="stat-card"><div class="stat-label">Avg. session length</div><div class="stat-value">18<span style="font-size:14px;font-weight:400;color:var(--text2)">m</span></div><div class="stat-delta delta-up"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor"><path d="M6 2l4 5H2z"/></svg>+2m vs last month</div></div>
-        <div class="stat-card"><div class="stat-label">Feature adoption avg.</div><div class="stat-value">6.2<span style="font-size:14px;font-weight:400;color:var(--text2)">/12</span></div><div class="stat-delta delta-flat">Features per active user</div></div>
-        <div class="stat-card"><div class="stat-label">Dormant seats</div><div class="stat-value" style="color:var(--danger)">5</div><div class="stat-delta delta-dn">$245/mo potentially wasted</div></div>
+      <div class="flex-between section-head" style="margin-bottom: 24px;">
+        <div>
+          <h3 style="font-size: 20px; font-weight: 600; letter-spacing: -0.5px; color: var(--text);">Platform Analytics</h3>
+          <p style="font-size: 14px; color: var(--text2); margin-top: 4px;">Comprehensive overview of system usage and engagement metrics.</p>
+        </div>
+        <div style="display: flex; gap: 12px;">
+          <select style="font-family: var(--font); font-size: 13px; padding: 8px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text); outline: none; cursor: pointer;">
+            <option>Last 30 Days</option>
+            <option>Last Quarter</option>
+            <option>Year to Date</option>
+          </select>
+          <button class="btn btn-primary" style="padding: 8px 16px;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Export Report
+          </button>
+        </div>
       </div>
-      <div class="grid-2 mb-4">
-        <div class="card">
-          <div class="card-header"><div class="card-title">Daily active users — 30 days</div></div>
-          <div class="card-body">
-            <div class="chart-wrap" style="height:190px"><canvas id="analDauChart" role="img" aria-label="DAU line chart">DAU over 30 days.</canvas></div>
+
+      <div class="stat-grid" style="grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px;">
+        <div class="stat-card" style="background: linear-gradient(145deg, #ffffff, #f9fafb); border-top: 3px solid var(--accent); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <div class="stat-label" style="font-size: 13px; font-weight: 500;">Total Active Users</div>
+            <div style="padding: 6px; background: var(--accent-light); color: var(--accent); border-radius: 8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          </div>
+          <div class="stat-value" style="font-size: 32px; font-weight: 700; margin-bottom: 8px;">2,451</div>
+          <div class="stat-delta delta-up" style="font-size: 12.5px; font-weight: 500;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg> +18.2% vs last month</div>
+        </div>
+
+        <div class="stat-card" style="background: linear-gradient(145deg, #ffffff, #f9fafb); border-top: 3px solid var(--success); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <div class="stat-label" style="font-size: 13px; font-weight: 500;">API Requests (Daily)</div>
+            <div style="padding: 6px; background: var(--success-bg); color: var(--success); border-radius: 8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+          </div>
+          <div class="stat-value" style="font-size: 32px; font-weight: 700; margin-bottom: 8px;">148.2k</div>
+          <div class="stat-delta delta-up" style="font-size: 12.5px; font-weight: 500;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg> +5.4% vs last month</div>
+        </div>
+
+        <div class="stat-card" style="background: linear-gradient(145deg, #ffffff, #f9fafb); border-top: 3px solid var(--warning); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <div class="stat-label" style="font-size: 13px; font-weight: 500;">Avg. Session Duration</div>
+            <div style="padding: 6px; background: var(--warning-bg); color: var(--warning); border-radius: 8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+          </div>
+          <div class="stat-value" style="font-size: 32px; font-weight: 700; margin-bottom: 8px;">24m 15s</div>
+          <div class="stat-delta delta-dn" style="font-size: 12.5px; font-weight: 500;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg> -1.2% vs last month</div>
+        </div>
+
+        <div class="stat-card" style="background: linear-gradient(145deg, #ffffff, #f9fafb); border-top: 3px solid var(--info); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+            <div class="stat-label" style="font-size: 13px; font-weight: 500;">Feature Adoption</div>
+            <div style="padding: 6px; background: var(--info-bg); color: var(--info); border-radius: 8px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M18 20V4"></path><path d="M6 20v-4"></path></svg></div>
+          </div>
+          <div class="stat-value" style="font-size: 32px; font-weight: 700; margin-bottom: 8px;">68.5%</div>
+          <div class="stat-delta delta-up" style="font-size: 12.5px; font-weight: 500;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg> +12.4% vs last month</div>
+        </div>
+      </div>
+
+      <div class="grid-2 mb-6" style="gap: 24px;">
+        <div class="card" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+          <div class="card-header" style="padding: 20px 24px;">
+            <div class="card-title" style="font-size: 15px; font-weight: 600;">System Usage Growth</div>
+            <div style="font-size: 12px; color: var(--text2); display: flex; gap: 12px; align-items: center;">
+              <span style="display: flex; align-items: center; gap: 4px;"><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--accent);"></span> Active Users</span>
+              <span style="display: flex; align-items: center; gap: 4px;"><span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #0284C7;"></span> API Calls</span>
+            </div>
+          </div>
+          <div class="card-body" style="padding: 24px;">
+            <div class="chart-wrap" style="height:260px"><canvas id="analDauChart" role="img" aria-label="Usage Growth Chart">Usage over time.</canvas></div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header"><div class="card-title">Sessions by hour (UTC)</div></div>
-          <div class="card-body">
-            <div class="chart-wrap" style="height:190px"><canvas id="analHourChart" role="img" aria-label="Hourly sessions bar chart">Sessions by hour.</canvas></div>
+
+        <div class="card" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+          <div class="card-header" style="padding: 20px 24px;">
+            <div class="card-title" style="font-size: 15px; font-weight: 600;">Traffic Sources</div>
+            <select style="border: none; background: transparent; color: var(--text2); font-size: 13px; font-weight: 500; outline: none; cursor: pointer;"><option>All Platforms</option><option>Web App</option><option>Mobile App</option></select>
+          </div>
+          <div class="card-body" style="padding: 24px; display: flex; align-items: center;">
+            <div class="chart-wrap" style="height:240px; width: 50%;"><canvas id="analSourceChart" role="img" aria-label="Traffic Sources Chart">Sources.</canvas></div>
+            <div style="width: 50%; padding-left: 32px; display: flex; flex-direction: column; gap: 16px;">
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 10px; height: 10px; border-radius: 2px; background: #2563EB;"></div><span style="font-size: 14px; font-weight: 500;">Direct Web</span></div>
+                <div style="font-family: var(--mono); font-size: 14px; font-weight: 600;">45%</div>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 10px; height: 10px; border-radius: 2px; background: #16A34A;"></div><span style="font-size: 14px; font-weight: 500;">Mobile iOS</span></div>
+                <div style="font-family: var(--mono); font-size: 14px; font-weight: 600;">28%</div>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 10px; height: 10px; border-radius: 2px; background: #D97706;"></div><span style="font-size: 14px; font-weight: 500;">Mobile Android</span></div>
+                <div style="font-family: var(--mono); font-size: 14px; font-weight: 600;">17%</div>
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 8px;"><div style="width: 10px; height: 10px; border-radius: 2px; background: #7C3AED;"></div><span style="font-size: 14px; font-weight: 500;">API / Integrations</span></div>
+                <div style="font-family: var(--mono); font-size: 14px; font-weight: 600;">10%</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card mb-4">
-        <div class="card-header"><div class="card-title">Feature adoption — % of active users (30d)</div></div>
-        <div class="card-body">
-          <div class="chart-wrap" style="height:230px"><canvas id="analAdoptChart" role="img" aria-label="Feature adoption horizontal bar chart">Feature adoption rates.</canvas></div>
+
+      <div class="grid-2 mb-6" style="gap: 24px;">
+        <div class="card" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+          <div class="card-header" style="padding: 20px 24px;"><div class="card-title" style="font-size: 15px; font-weight: 600;">Feature Engagement Matrix</div></div>
+          <div class="card-body" style="padding: 24px;">
+            <div class="chart-wrap" style="height:280px"><canvas id="analAdoptChart" role="img" aria-label="Feature adoption bar chart">Feature adoption rates.</canvas></div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-header"><div class="card-title">Seat utilisation — last 6 months</div></div>
-        <div class="card-body">
-          <div class="chart-wrap" style="height:180px"><canvas id="analSeatChart" role="img" aria-label="Stacked seat utilisation chart">Seat utilisation over time.</canvas></div>
+
+        <div class="card" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+          <div class="card-header" style="padding: 20px 24px;">
+            <div class="card-title" style="font-size: 15px; font-weight: 600;">Top Performing Modules</div>
+            <button class="btn btn-ghost btn-sm">View Details</button>
+          </div>
+          <div class="card-body" style="padding: 0;">
+            <table style="width: 100%;">
+              <thead><tr style="background: var(--surface2);"><th style="padding: 14px 24px;">Module Name</th><th style="padding: 14px 24px;">Usage Count</th><th style="padding: 14px 24px;">Growth</th><th style="padding: 14px 24px;">Status</th></tr></thead>
+              <tbody>
+                <tr><td style="padding: 16px 24px; font-weight: 500; display: flex; align-items: center; gap: 10px;"><div style="padding: 6px; background: rgba(37,99,235,0.1); color: #2563EB; border-radius: 6px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg></div> Deals Pipeline</td><td style="padding: 16px 24px; font-family: var(--mono); font-weight: 600;">45,210</td><td style="padding: 16px 24px; color: var(--success); font-weight: 500;">+24%</td><td style="padding: 16px 24px;"><span class="badge badge-success">Optimized</span></td></tr>
+                <tr><td style="padding: 16px 24px; font-weight: 500; display: flex; align-items: center; gap: 10px;"><div style="padding: 6px; background: rgba(22,163,74,0.1); color: #16A34A; border-radius: 6px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div> CRM Contacts</td><td style="padding: 16px 24px; font-family: var(--mono); font-weight: 600;">32,845</td><td style="padding: 16px 24px; color: var(--success); font-weight: 500;">+18%</td><td style="padding: 16px 24px;"><span class="badge badge-success">Optimized</span></td></tr>
+                <tr><td style="padding: 16px 24px; font-weight: 500; display: flex; align-items: center; gap: 10px;"><div style="padding: 6px; background: rgba(217,119,6,0.1); color: #D97706; border-radius: 6px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div> Email Inbox</td><td style="padding: 16px 24px; font-family: var(--mono); font-weight: 600;">28,190</td><td style="padding: 16px 24px; color: var(--warning); font-weight: 500;">-2%</td><td style="padding: 16px 24px;"><span class="badge badge-warning">Needs Review</span></td></tr>
+                <tr><td style="padding: 16px 24px; font-weight: 500; display: flex; align-items: center; gap: 10px;"><div style="padding: 6px; background: rgba(124,58,237,0.1); color: #7C3AED; border-radius: 6px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div> Automations</td><td style="padding: 16px 24px; font-family: var(--mono); font-weight: 600;">19,450</td><td style="padding: 16px 24px; color: var(--success); font-weight: 500;">+42%</td><td style="padding: 16px 24px;"><span class="badge badge-success">Optimized</span></td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -1410,49 +1510,133 @@ function initAnalyticsCharts() {
   if (analyticsInited) return;
   analyticsInited = true;
 
+  // Generate first-principle data for Usage Growth
+  const baseUsers = 1200;
+  const baseAPI = 5000;
+  const dauData = DAYS30.map((_, i) => Math.round(baseUsers + (i * 45) + (Math.sin(i) * 150) + rnd(-50, 50)));
+  const apiData = DAYS30.map((_, i) => Math.round(baseAPI + (i * 200) + (Math.cos(i) * 800) + rnd(-200, 200)));
+
   new Chart(document.getElementById('analDauChart'), {
     type: 'line',
     data: {
       labels: DAYS30,
       datasets: [
-        { data: DAYS30.map(()=>rnd(16,28)), borderColor:'#2563EB', backgroundColor:'rgba(37,99,235,0.07)', tension:0.4, pointRadius:0, borderWidth:2, fill:true, label:'DAU' },
-        { data: DAYS30.map(()=>rnd(3,8)), borderColor:'#16A34A', backgroundColor:'rgba(22,163,74,0.05)', tension:0.4, pointRadius:0, borderWidth:1.5, fill:true, borderDash:[4,3], label:'New logins' }
+        { 
+          label: 'Active Users',
+          data: dauData, 
+          borderColor: '#2563EB', 
+          backgroundColor: 'rgba(37,99,235,0.1)', 
+          tension: 0.4, 
+          pointRadius: 0, 
+          pointHoverRadius: 6,
+          borderWidth: 3, 
+          fill: true,
+          yAxisID: 'y'
+        },
+        { 
+          label: 'API Calls',
+          data: apiData, 
+          borderColor: '#0284C7', 
+          backgroundColor: 'rgba(2,132,199,0.05)', 
+          tension: 0.4, 
+          pointRadius: 0, 
+          pointHoverRadius: 6,
+          borderWidth: 2, 
+          borderDash: [5, 5],
+          fill: true,
+          yAxisID: 'y1'
+        }
       ]
     },
-    options: { ...CHART_OPTS }
+    options: { 
+      ...CHART_OPTS, 
+      interaction: { mode: 'index', intersect: false },
+      plugins: { 
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(17, 17, 16, 0.9)',
+          titleFont: { family: 'DM Sans', size: 13 },
+          bodyFont: { family: 'DM Sans', size: 12 },
+          padding: 12,
+          cornerRadius: 8
+        }
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#A8A8A2', maxTicksLimit: 10, font: { family: 'DM Sans', size: 11 } } },
+        y: { type: 'linear', display: true, position: 'left', grid: { color: 'rgba(0,0,0,0.04)' }, ticks: { color: '#A8A8A2', font: { family: 'DM Sans', size: 11 } } },
+        y1: { type: 'linear', display: true, position: 'right', grid: { drawOnChartArea: false }, ticks: { color: '#A8A8A2', font: { family: 'DM Sans', size: 11 } } }
+      }
+    }
   });
 
-  new Chart(document.getElementById('analHourChart'), {
-    type: 'bar',
-    data: {
-      labels: Array.from({length:24},(_,i)=>i+'h'),
-      datasets: [{ data: Array.from({length:24},(_,i)=> i<6?rnd(0,5):i<9?rnd(20,40):i<12?rnd(55,80):i<14?rnd(40,55):i<17?rnd(50,75):i<20?rnd(20,35):rnd(2,10), backgroundColor:'#2563EB', borderRadius:3 }]
-    },
-    options: { ...CHART_OPTS }
-  });
+  if(document.getElementById('analSourceChart')) {
+    new Chart(document.getElementById('analSourceChart'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Direct Web', 'Mobile iOS', 'Mobile Android', 'API / Integrations'],
+        datasets: [{ 
+          data: [45, 28, 17, 10], 
+          backgroundColor: ['#2563EB', '#16A34A', '#D97706', '#7C3AED'], 
+          borderWidth: 0,
+          hoverOffset: 4
+        }]
+      },
+      options: { 
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '75%',
+        plugins: { 
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: 'rgba(17, 17, 16, 0.9)',
+            bodyFont: { family: 'DM Sans', size: 13 },
+            padding: 12,
+            callbacks: {
+              label: function(context) {
+                return ' ' + context.label + ': ' + context.raw + '%';
+              }
+            }
+          }
+        } 
+      }
+    });
+  }
 
-  const features = ['Deals pipeline','Contacts','Email sync','Activities','Automations','Insights','LeadBooster','Products','Campaigns','Projects','Custom fields','API'];
-  const pcts = [94,88,79,76,61,54,43,38,31,22,18,11];
+  const features = ['Core Pipeline', 'Contact Sync', 'Email Tracking', 'Automated Workflows', 'Custom Reports', 'API Usage', 'Lead Scoring', 'Team Chat'];
+  const baseEngagement = 95;
+  const dropoffFactor = 0.85;
+  const pcts = features.map((_, i) => Math.round(baseEngagement * Math.pow(dropoffFactor, i) + rnd(-5, 5)));
+  
   new Chart(document.getElementById('analAdoptChart'), {
     type: 'bar',
     data: {
       labels: features,
-      datasets: [{ data: pcts, backgroundColor: pcts.map(v=>v>75?'#16A34A':v>50?'#2563EB':'#D97706'), borderRadius:3 }]
+      datasets: [{ 
+        data: pcts, 
+        backgroundColor: pcts.map(v => v > 75 ? '#16A34A' : v > 50 ? '#2563EB' : '#D97706'), 
+        borderRadius: 4,
+        barPercentage: 0.6
+      }]
     },
-    options: { ...CHART_OPTS, indexAxis:'y', scales: { x:{ max:100, grid:{color:'rgba(0,0,0,0.04)'}, ticks:{callback:v=>v+'%',color:'#A8A8A2',font:{family:'DM Sans',size:11}}}, y:{grid:{display:false},ticks:{color:'#A8A8A2',font:{family:'DM Sans',size:11}}} } }
-  });
-
-  new Chart(document.getElementById('analSeatChart'), {
-    type: 'bar',
-    data: {
-      labels: ['Jan','Feb','Mar','Apr','May','Jun'],
-      datasets: [
-        { label:'Active', data:[17,18,18,19,19,19], backgroundColor:'#2563EB', borderRadius:2 },
-        { label:'Dormant', data:[4,4,4,4,5,5], backgroundColor:'#D97706', borderRadius:2 },
-        { label:'Unused', data:[3,2,2,1,0,0], backgroundColor:'#DC2626', borderRadius:2 }
-      ]
-    },
-    options: { ...CHART_OPTS, scales: { x:{ stacked:true, grid:{display:false}, ticks:{color:'#A8A8A2',font:{family:'DM Sans',size:11}}}, y:{stacked:true, grid:{color:'rgba(0,0,0,0.04)'}, ticks:{color:'#A8A8A2',font:{family:'DM Sans',size:11}}} } }
+    options: { 
+      ...CHART_OPTS, 
+      indexAxis: 'x', 
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(17, 17, 16, 0.9)',
+          titleFont: { family: 'DM Sans', size: 13 },
+          bodyFont: { family: 'DM Sans', size: 12 },
+          callbacks: {
+            label: function(context) { return ' Engagement: ' + context.raw + '%'; }
+          }
+        }
+      },
+      scales: { 
+        x: { grid: { display: false }, ticks: { color: '#6B6B66', font: { family: 'DM Sans', size: 12 } } }, 
+        y: { max: 100, grid: { color: 'rgba(0,0,0,0.04)' }, ticks: { callback: v => v + '%', color: '#A8A8A2', font: { family: 'DM Sans', size: 11 } } } 
+      } 
+    }
   });
 }
 </script>
